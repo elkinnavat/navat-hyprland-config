@@ -2,7 +2,8 @@ echo "-----------------------------"
 echo "          Fase #1            "
 echo "-----------------------------"
 
-sudo pacman -S --noconfirm hyprland waybar kitty fastfetch git hyprpaper
+sudo pacman -S --noconfirm hyprland waybar kitty fastfetch git hyprpaper brightnessctl zip unzip unrar networkmanager network-manager-applet
+read 
 clear
 
 echo "-----------------------------"
@@ -15,4 +16,5 @@ echo ""
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd ..
 echo ""
 echo ""
-yay -S --noconfirm tofi hyprshot
+yay -S --noconfirm tofi hyprshot pwvucontrol 
+

@@ -1,3 +1,4 @@
+
 echo "-----------------------------"
 echo "          Fase #1            "
 echo "-----------------------------"
@@ -18,3 +19,8 @@ echo ""
 echo ""
 yay -S --noconfirm tofi hyprshot pwvucontrol 
 
+echo "-----------------------------"
+echo "          Fase #3            "
+echo "-----------------------------"
+sudo cp -r ./configs/ ~/.config/
+cp -r ./wall1.png ~/

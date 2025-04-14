@@ -22,5 +22,14 @@ yay -S --noconfirm tofi hyprshot pwvucontrol
 echo "-----------------------------"
 echo "          Fase #3            "
 echo "-----------------------------"
-sudo cp -r ./configs/ ~/.config/
+sudo cp -r ./configs/.config ~/
 cp -r ./wall1.png ~/
+
+
+echo "--------------------------------------"
+echo "          config instalada            "
+echo "--------------------------------------"
+echo "        disfruta este bodrio          "
+echo "--------------------------------------"
+echo "precione cualquier tecla pa salir"
+read 
